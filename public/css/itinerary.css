@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------ */
+/*  旅程表作成画面
+/* ------------------------------------------------------ */
+
+
+.my_itinerary_title {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+    padding-left: 20px;
+    border-left: solid 5px blue;
+}
+.my_itinerary_category {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;    
+}
+.my_itinerary_search {
+    margin-left: 0px;
+}
+.my_itinerary_category input,
+.my_itinerary_category select {
+    width: 180px;
+    height: 50px;
+}
+.my_itinerary_delimiter {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.my_itinerary_content {
+    margin: 30px auto 30px auto;
+    width: 100%;
+}
+.my_itinerary_content tr {
+    margin-bottom: 20px;
+}
+.my_itinerary_content th,
+.my_itinerary_content td {
+    text-align: center;
+}
+.my_itinerary_content input,
+.my_itinerary_content select {
+    width: 130px;
+    height: 50px;
+}
+.my_itinerary_content_delimiter {
+    height: 20px;
+}
+.my_itinerary_submit_back {
+    display: flex;
+    justify-content: end;
+}
+#back_button {
+    border: none;  
+}
+.my_itinerary_submit {
+    margin-bottom: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+.first_button {
+    height: 50px;
+    width: 200px;
+}
+.second_button {
+    margin-right: 200px;
+    width: 200px;
+}
+
+.my_itinerary_hotel, .my_itinerary_touristarea {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    max-width: 1300px;
+}
+
+.my_itinerary_touristarea table, .my_itinerary_hotel table {
+    margin-bottom: 20px;
+    margin-left: 0;
+    height: 200px;
+    width: 30%;
+    max-width: 400px;
+    min-width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: separate;
+}
+
+.my_itinerary_touristarea img, .my_itinerary_hotel img {
+    height: 100px;
+    width: auto;
+}
+.hotel_picture, .tourist_picture {
+    width: 30%;
+}
+
+.hotel_detail, .tourist_detail {
+    width: 50%;
+}
+
+/* ------------------------------------------------------ */
+/*  旅程表登録画面
+/* ------------------------------------------------------ */
+
+.my_itinerary_complete_category {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: auto;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+.my_itinerary_complete_category  li:nth-child(1){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: solid 1px rgb(204, 204, 204);
+}
+.my_itinerary_complete_category  li:nth-child(n+3){
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.my_itinerary_complete_category  li:nth-child(4){
+    margin-top: 60px;
+}
+.my_itinerary_complete_category  li:nth-child(5){
+    text-align: center;
+}
+.my_itinerary_button {
+    display: flex;
+    justify-content: center;
+}
+.back_my_itinerary_button {
+    margin: 20px auto 50px auto;
+    height: 50px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+.my_itinerary_button_left{
+    margin-right: 30px;
+}
+.my_itinerary_button_right{
+    margin-left: 30px;
+}
+
+
+/* ------------------------------------------------------ */
+/*  みんなの旅程表画面
+/* ------------------------------------------------------ */
+
+.everyone_itinerary_title {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+    padding-left: 20px;
+    border-left: solid 5px blue;
+}
+.everyone_itinerary_category {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;    
+}
+.everyone_head {
+    display: flex; 
+}
+.everyone_itinerary {
+    margin: 20px auto 50px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    height: 50px;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);  
+    border-collapse: separate;
+}
+.everyone_itinerary_item {
+    font-size: 15px;
+}
+.everyone_itinerary_headline {
+    font-weight: 700;
+}
+
+
+
+

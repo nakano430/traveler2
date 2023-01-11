@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+.button_form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.submit_user_button, .back_button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    height: 70px;
+    width: 40%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+
+/* ------------------------------------------------------ */
+/*  マイページ画面
+/* ------------------------------------------------------ */
+
+.mypage {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+}
+.user {
+    padding-left: 30px;
+    padding-bottom: 50px;
+    border: 5px dotted black;
+    border-radius: 10px
+}
+.user_profile {
+    margin-left: 80px;
+}
+.user_profile_item {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+    background-color: rgba(219, 215, 212, 0.6);
+}
+.user_profile_item h3, #user_profile_item h3 {
+    padding-left: 20px;
+    padding-right: 50px;
+    border-bottom: 2px dotted black;
+}
+.user_profile_item h3 {
+    border-right: 5px solid black;
+}
+#user_profile_item h3 {
+    width: 500px;
+}
+.mypage_button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.mypage_button button {
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+}
+.mypage_itinerary_list {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+}
+.my_itinerary_list_head {
+    display: flex;
+
+}
+.my_itinerary_list_content {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.my_itinerary_list_delimiter {
+    display: block;
+    margin-bottom: 15px;
+}
+.my_itinerary_list_item {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;    
+}
+.my_itinerary_list_headline {
+    text-align: center;    
+}
+#itinerary_is_none {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 200px;
+    padding-left: 40px;
+}
+
+/* ------------------------------------------------------ */
+/*  プロフィール編集画面
+/* ------------------------------------------------------ */
+
+.profile_category ul{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+.profile_category li:nth-child(2){
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: solid 1px rgb(204, 204, 204);
+}
+.profile_category li:nth-child(3){
+    margin-top: 20px;
+}
+.profile_category li:nth-child(n+4){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile_category li:nth-child(4){
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    background-color: rgb(240, 240, 240);
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.profile_category li:nth-child(6){
+    margin-top: 30px;
+}
+.profile_category li:nth-child(odd):nth-child(n+7):nth-child(-n+11) {
+    margin-bottom: 10px;
+    border-bottom: dashed 1px black;
+}
+.profile_category li input {
+    margin-bottom: 10px;
+}
+.profile_category li span{
+    color: red;
+}
+.profile_form{
+    margin-bottom: 5px;
+    padding-left: 5px;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(204, 204, 204);
+}
+
+
+/* ------------------------------------------------------ */
+/*  プロフィール編集確認画面
+/* ------------------------------------------------------ */
+
+
+.profile_confirm_category ul{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 10px;
+}
+.profile_confirm_category li:nth-child(2){
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: solid 1px rgb(204, 204, 204);
+}
+.profile_confirm_category li:nth-child(3){
+    margin-top: 20px;
+}
+.profile_confirm_category li:nth-child(n+4){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.profile_confirm_category li:nth-child(4){
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    background-color: rgb(240, 240, 240);
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.profile_confirm_category li:nth-child(5){
+    margin-top: 20px;
+    font-size: 16px;
+}
+.profile_confirm_category li:nth-child(6){
+    margin-top: 30px;
+}
+.profile_confirm_category li:nth-child(n+6):nth-child(-n+9) {
+    margin-bottom: 40px;
+    font-size: 20px;
+    border-bottom: dashed 1px black;
+}
+
+.profile_confirm_category li input {
+    margin-bottom: 10px;
+}
+
+
+/* ------------------------------------------------------ */
+/*  送信完了画面
+/* ------------------------------------------------------ */
+
+.profile_complete_category {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: auto;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+.profile_complete_category  li:nth-child(2){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: solid 1px rgb(204, 204, 204);
+}
+.profile_complete_category  li:nth-child(n+3){
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.profile_complete_category  li:nth-child(4){
+    margin-top: 60px;
+}
+.profile_complete_category  li:nth-child(5){
+    text-align: center;
+}
+.back_login_button {
+    margin: 20px auto 50px auto;
+    height: 70px;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+/* ------------------------------------------------------ */
+/*  パスワードリセット画面
+/* ------------------------------------------------------ */
+
+.password_reset_category {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: auto;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+.password_reset_category  li:nth-child(2){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: solid 1px rgb(204, 204, 204);
+}
+.password_reset_category  li:nth-child(n+4){
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+.password_reset_category  li:nth-child(4){
+    margin-top: 60px;
+}
+
+.password_reset_button {
+    margin: 20px auto 10px auto;
+    height: 70px;
+    width: 500px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+.password_reset_button_form {
+    text-align: center;
+}
+.password_reset_form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+}
+#top_delimiter{
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px dotted black;
+}
+#bottom_delimiter {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+

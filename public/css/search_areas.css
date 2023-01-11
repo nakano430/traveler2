@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------------ */
+/*  エリア検索画面
+/* ------------------------------------------------------ */
+
+.search_title {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+    padding-left: 20px;
+    border-left: solid 5px blue;
+}
+.search_category {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+    padding-top: 30px;    
+    padding-left: 30px;
+    padding-bottom: 50px;
+    border: 5px dotted black;
+    border-radius: 10px;
+    border-collapse: separate;
+}
+.region_picture {
+    height: auto;
+    width: 600px;
+    border: 2px solid rgb(188, 182, 179);
+}
+.area_detail {
+    width: 500px;
+}
+.area_detail form table {
+    margin-left: 0;
+}
+.area_picture {
+    margin-right: 10px;
+    height: auto;
+    width: 200px;
+    border: 2px solid rgb(188, 182, 179);
+}
+.area_detail form p {
+    font-size: 17px;
+    font-weight: 700;
+}
+.search_conditions, .search_hotel_detail {
+    margin-left: 0px;
+}
+.conditions_background {
+    background-color: rgba(200, 200, 200, 0.8);
+}
+.search_delimiter {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.search_hotel_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1050px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: separate;
+}
+.search_hotel_content table{
+    width: 30%;
+}
+#hotel_picture {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: auto;
+}
+
+.search_hotel_info {
+    width: 400px;
+}
+.search_hotel_detail td:nth-child(2) {
+    padding-left: 30px;
+}
+.search_hotel_detail td:nth-child(3) {
+    padding-left: 60px;
+}
+.search_hotel_detail td button {
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+}
+.search_hotels_back {
+    display: flex;
+    justify-content: end;
+}
+.back_button {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    margin-right: 150px;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}

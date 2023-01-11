@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* reset */
+body, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+img {
+ image-rendering: -webkit-optimize-contrast;
+}
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+	cursor: pointer;
+}
+#background {
+	background-color: rgba(230,230,230,0.3);
+}
+
+.error-message {
+	color: #c30
+}
+
+/* ------------------------------------------------------ */
+
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+	width: 200px;
+	height: auto;
+	margin-left: 50px;
+}
+.login p{
+	margin-top: 35px;
+	margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.delimiter {
+	background-color: rgba(0,0,0,0.1);
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+
+.footer a{
+	color: black;
+}
+.footer{
+    margin-top: auto;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    border-top: solid 1px #dddddd;
+}
+.main{
+	display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-top: 20px;
+}
+h4, .index li {
+	margin-bottom: 12px;
+	font-size: 14px;
+	color: black;
+}
+
+.privacy_policy{
+	margin: auto 60px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	border-top: solid 1px #dddddd;
+}
+
+.login button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+	appearance: none;
+}
+
+input[type="date"] {
+	width: 150px;
+	height: 30px;
+}
